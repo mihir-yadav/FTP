@@ -22,10 +22,10 @@ client terminal $ gcc client.c -o client
 $ gcc client.c -o client
 $ ./client 127.0.0.1 8080
 
-# Place client.c and server.c in separate folders to check that the files are transferred correctly.
-# One can use any other port number in place of 8080 
-# One should insert server IP in place of localhost if transferring files to some other PC,
-# given that both server and client are connected to same network.
+Place client.c and server.c in separate folders to check that the files are transferred correctly.
+One can use any other port number in place of 8080 
+One should insert server IP in place of localhost if transferring files to some other PC,
+given that both server and client are connected to same network.
 
 Sample commands:
 GET a.c
